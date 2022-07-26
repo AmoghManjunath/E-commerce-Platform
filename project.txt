@@ -1,0 +1,597 @@
+package shopping;
+
+import java.util.Scanner;
+
+class Electronics
+{
+	int electronics()
+	{	
+		int pr=0;
+		System.out.println("1.Mobile");
+		System.out.println("2.Earphones");
+		System.out.println("3.Laptops");
+		System.out.println("enter the choice");
+		Scanner sc=new Scanner(System.in);
+		int i=sc.nextInt();
+		if(i==1)
+		{
+			System.out.println("1.Apple");
+			System.out.println("2.Samsung");
+			System.out.println("3.OnePlus");
+			Scanner sc1=new Scanner(System.in);
+			System.out.println("enter the choice");
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("price of mobile is 78000");
+				System.out.println("the phone will be delivered within two days");
+				pr=78000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			else if(i1==2)
+			{
+				System.out.println("price of the mobile is 50000");
+				System.out.println("the mobile will be delivered within three days");
+				pr=50000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			else if(i1==3)
+			{
+				System.out.println("price of the mobile is 53000");
+				System.out.println("the mobile will be delivered within 3 days");
+				pr=53000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==2)
+		{
+			System.out.println("1.AirPods");
+			System.out.println("2.Samsung buds");
+			System.out.println("3.OnePlus Bullets");
+			Scanner sc1=new Scanner(System.in);
+			System.out.println("enter the choice");
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("price of mobile is 78000");
+				System.out.println("the phone will be delivered within two days");
+				pr=78000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			else if(i1==2)
+			{
+				System.out.println("price of the mobile is 50000");
+				System.out.println("the mobile will be delivered within three days");
+				pr=50000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			else if(i1==3)
+			{
+				System.out.println("price of the mobile is 53000");
+				System.out.println("the mobile will be delivered within 3 days");
+				pr=53000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==3)
+		{
+			System.out.println("1.Macbook");
+			System.out.println("2.Samsung");
+			System.out.println("3.Dell");
+			Scanner sc1=new Scanner(System.in);
+			System.out.println("enter the choice");
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("price of mobile is 78000");
+				System.out.println("the phone will be delivered within two days");
+				pr=78000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			else if(i1==2)
+			{
+				System.out.println("price of the mobile is 50000");
+				System.out.println("the mobile will be delivered within three days");
+				pr=50000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			else if(i1==3)
+			{
+				System.out.println("price of the mobile is 53000");
+				System.out.println("the mobile will be delivered within 3 days");
+				pr=53000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		return pr;
+	}
+}
+class clothes
+{
+	int clothes()
+	{	
+		int pr=0;
+		System.out.println("1.Shirts");
+		System.out.println("2.T-shirts");
+		System.out.println("3.Trousers");
+		System.out.println("enter the choice");
+		Scanner sc=new Scanner(System.in);
+		int i=sc.nextInt();
+		if(i==1)
+		{
+			System.out.println("1.Dsquared");
+			System.out.println("2.Burberry");
+			System.out.println("3.Armani Exchange");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("Dsquared");
+				System.out.println("price=35000");
+				System.out.println("delivered within a week");
+				pr=35000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("Burberry");
+				System.out.println("price=25000");
+				System.out.println("delivered within 5 days");
+				pr=25000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("Armani EXchange");
+				System.out.println("price=20000");
+				System.out.println("delivered within a week");
+				pr=20000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==2)
+		{
+			System.out.println("1.Dsquared");
+			System.out.println("2.Burberry");
+			System.out.println("3.Armani Exchange");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("Dsquared");
+				System.out.println("price=35000");
+				System.out.println("delivered within a week");
+				pr=35000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("Burberry");
+				System.out.println("price=25000");
+				System.out.println("delivered within 5 days");
+				pr=25000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("Armani EXchange");
+				System.out.println("price=20000");
+				System.out.println("delivered within a week");
+				pr=20000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==3)
+		{
+			System.out.println("1.Dsquared");
+			System.out.println("2.Burberry");
+			System.out.println("3.Armani Exchange");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("Dsquared");
+				System.out.println("price=35000");
+				System.out.println("delivered within a week");
+				pr=35000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("Burberry");
+				System.out.println("price=25000");
+				System.out.println("delivered within 5 days");
+				pr=25000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("Armani EXchange");
+				System.out.println("price=20000");
+				System.out.println("delivered within a week");
+				pr=20000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		return pr;
+	}
+}
+class sports
+{
+	int sports()
+	{	
+		int pr=0;
+		System.out.println("1.sports equipments");
+		System.out.println("2.sports shoes");
+		System.out.println("3.sports kit");
+		System.out.println("enter your choice");
+		Scanner sc=new Scanner(System.in);
+		int i=sc.nextInt();
+		if(i==1)
+		{
+			System.out.println("1.Cricket Bat");
+			System.out.println("2.shuttle Raquet");
+			System.out.println("3.hockey stick");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("Cricket Bat");
+				System.out.println("price=1500");
+				System.out.println("delivered in 2 days");
+				pr=1500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("Shuttle Raquet");
+				System.out.println("Price=2500");
+				System.out.println("delivered in 6 days");
+				pr=25000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("Hockey Stick");
+				System.out.println("price=2000");
+				System.out.println("delivered in 2 days");
+				pr=2000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==2)
+		{
+			System.out.println("1.Cricket Shoes");
+			System.out.println("2.Batmiton Shoes");
+			System.out.println("3.hockey Shoes");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("Cricket Shoes");
+				System.out.println("price=1500");
+				System.out.println("delivered in 2 days");
+				pr=1500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("batmiton shoes");
+				System.out.println("Price=2500");
+				System.out.println("delivered in 6 days");
+				pr=2500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("Hockey Shoes");
+				System.out.println("price=2000");
+				System.out.println("delivered in 2 days");
+				pr=2000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==3)
+		{
+			System.out.println("1.Cricket Kit");
+			System.out.println("2.Batmiton Kit");
+			System.out.println("3.hockey Kit");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("Cricket Kit");
+				System.out.println("price=1500");
+				System.out.println("delivered in 2 days");
+				pr=1500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("batmiton Kit");
+				System.out.println("Price=2500");
+				System.out.println("delivered in 6 days");
+				pr=2500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("Hockey Kit");
+				System.out.println("price=2000");
+				System.out.println("delivered in 2 days");
+				pr=2000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		return pr;
+	}
+}
+class books
+{
+	int books()
+	{	
+		int pr=0;
+		System.out.println("1.comics");
+		System.out.println("2.science");
+		System.out.println("3.mythology");
+		System.out.println("enter your choice");
+		Scanner sc=new Scanner(System.in);
+		int i=sc.nextInt();
+		if(i==1)
+		{
+			System.out.println("1.Batman");
+			System.out.println("2.thor");
+			System.out.println("3.doctor strange");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("Batman");
+				System.out.println("price=1500");
+				System.out.println("delivered in 2 days");
+				pr=1500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("thor");
+				System.out.println("Price=2500");
+				System.out.println("delivered in 6 days");
+				pr=2500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("doctor strange");
+				System.out.println("price=2000");
+				System.out.println("delivered in 2 days");
+				pr=2000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==2)
+		{
+			System.out.println("1.physics");
+			System.out.println("2.chemistry");
+			System.out.println("3.biology");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("physics");
+				System.out.println("price=1500");
+				System.out.println("delivered in 2 days");
+				pr=1500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("chemistry");
+				System.out.println("Price=2500");
+				System.out.println("delivered in 6 days");
+				pr=2500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("biology");
+				System.out.println("price=2000");
+				System.out.println("delivered in 2 days");
+				pr=2000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		if(i==3)
+		{
+			System.out.println("1.half girlfrient");
+			System.out.println("2.reveloution2020");
+			System.out.println("3.three mistakes of my life");
+			System.out.println("enter the choice");
+			Scanner sc1=new Scanner(System.in);
+			int i1=sc1.nextInt();
+			if(i1==1)
+			{
+				System.out.println("half girlfriend");
+				System.out.println("price=1500");
+				System.out.println("delivered in 2 days");
+				pr=1500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==2)
+			{
+				System.out.println("revolution2020");
+				System.out.println("Price=2500");
+				System.out.println("delivered in 6 days");
+				pr=2500;
+				System.out.println("price="+pr);
+				return pr;
+			}
+			if(i1==3)
+			{
+				System.out.println("three mistakes of my life");
+				System.out.println("price=2000");
+				System.out.println("delivered in 2 days");
+				pr=2000;
+				System.out.println("price="+pr);
+				return pr;
+			}
+		}
+		return pr;
+	}
+}
+class payment
+{
+	void payment()
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("would you like to pay through cash or card");
+		System.out.println("for card press 1 and for cash press 2");
+		int i=sc.nextInt();
+		if(i==1)
+		{
+			System.out.println("enter you card details");
+			System.out.println("card number:________________");
+			System.out.println("expiry date:___/___");
+			System.out.println("cvv___");
+		}
+		else
+		{
+			System.out.println("pay on the delivery");
+		}
+	}
+}
+public class Ecommerce {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		System.out.println("welcome to ecommerce");
+		
+		String s[]=new String[4];
+		s[0]="1.Electronics";
+		s[1]="2.Clothes";
+		s[2]="3.Sports";
+		s[3]="4.Books";
+		
+		int cart[]=new int[10];
+		int t=0;
+		int sum=0;
+		//for(int j1=0;j1<s.length;j1++)
+		//{
+		
+		int val=1;
+		Scanner sc=new Scanner(System.in);
+		while(val==1)
+		{
+			System.out.println("Do you want to continue shopping :press 1 if yes/press 2 if no");
+			int w=sc.nextInt();
+			if(w==1)
+			{
+				for(int i=0;i<s.length;i++)
+				{
+					System.out.println(s[i]);
+				}
+				System.out.println("enter your choice");
+				
+				int j=sc.nextInt();
+				
+				if(j==1)
+				{
+					Electronics e=new Electronics();
+					cart[t]=e.electronics();
+					//System.out.println(cart[t]);
+					t++;
+				}
+				else if(j==2)
+				{
+					clothes c=new clothes();
+					cart[t]=c.clothes();
+					t++;
+				}
+				else if(j==3)
+				{
+					sports sp=new sports();
+					cart[t]=sp.sports();
+					t++;
+				}
+				else if(j==4)
+				{
+					books b=new books();
+					cart[t]=b.books();
+					t++;
+				}
+				
+			}
+			else
+			{
+				val=0;
+	
+				System.out.println("The sum of the cart");
+				for(int k=0;k<cart.length;k++)
+				{
+					
+					sum=sum+cart[k];
+				}
+				System.out.println("the value of the cart is"+sum);
+				//System.out.println("thank you");
+				System.exit(0);
+				
+		}
+			if(sum>100000) {
+				System.out.println("elligible for free delivery");
+			}
+			else
+			{
+				System.out.println("500 delivery charges are applied");
+			}
+			payment p=new payment();
+			p.payment();
+			}
+		}
+
+		}
+  
+//}
